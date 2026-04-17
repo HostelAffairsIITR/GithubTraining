@@ -6,10 +6,14 @@ Please follow these technical constraints to ensure your contribution is accepte
 
 1. "Fork": Click the Fork button on the top right of this page to create an online copy in your github account.
 2. "Clone": Download your fork to your local machine. <br>
-   ```git clone https://github.com/YOUR_USERNAME/GithubTraining.git```
+```bash
+git clone https://github.com/YOUR_USERNAME/GithubTraining.git
+```
 
-3. Configure Upstream: To ensure that you can always fetch the latest copy of main repo. <br>
-  ```git remote add upstream https://github.com/HostelAffairsIITR/GithubTraining.git```
+4. Configure Upstream: To ensure that you can always fetch the latest copy of main repo. <br>
+```bash
+git remote add upstream https://github.com/HostelAffairsIITR/GithubTraining.git
+```
 
 ## Synchronize
 
