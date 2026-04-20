@@ -2,17 +2,26 @@ Hi! This repo has been made to help novices get comfortable with Github's workfl
 
 Please follow these technical constraints to ensure your contribution is accepted.
 
+<br>
+
+## Authentication Using SSH
+
+In professional production environments, SSH is the industry standard for Git communication.
+
+Prerequisites: You must configure SSH keys on your machine to interact with this repository.
+* Official setup guide: [GitHub SSH Authentication Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
 ## Initial Setup
 
 1. "Fork": Click the Fork button on the top right of this page to create an online copy in your github account.
 2. "Clone": Download your fork to your local machine. <br>
 ```bash
-git clone https://github.com/YOUR_USERNAME/GithubTraining.git
+git clone git@github.com:YOUR_USERNAME/GithubTraining.git
 ```
 
 4. Configure Upstream: To ensure that you can always fetch the latest copy of main repo. <br>
 ```bash
-git remote add upstream https://github.com/HostelAffairsIITR/GithubTraining.git
+git remote add upstream git@github.com:HostelAffarisIITR/GithubTraining.git
 ```
 
 ## Synchronize
